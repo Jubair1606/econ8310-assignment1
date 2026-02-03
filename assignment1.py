@@ -56,3 +56,4 @@ import matplotlib.pyplot as plt
 # Load predictions
 pred = pd.read_csv("predictions.csv", index_col=0)
 pred.index = pd.to_datetime(pred.index)
+
